@@ -25,7 +25,7 @@ public class Media {
 	void loadLibrary(){
 		String currentDir = System.getProperty("user.dir");
     	NativeLibrary.addSearchPath(
-                RuntimeUtil.getLibVlcLibraryName(), currentDir+"/lib/VLC");
+                RuntimeUtil.getLibVlcLibraryName(), "/Directory path/for your/VLC installation");
         Native.loadLibrary(RuntimeUtil.getLibVlcLibraryName(), LibVlc.class);
         LibXUtil.initialise();
     }
