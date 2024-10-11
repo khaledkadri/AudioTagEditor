@@ -21,4 +21,4 @@ NativeLibrary.addSearchPath(
 ```
 
 ## License
-This project is licensed under the GPL-3.0 license. For more details, please see the LICENSE file.
+This project is licensed under the GPL-3.0 license. For more details, please read the LICENSE file.
